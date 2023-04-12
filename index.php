@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nav Bar</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet">
 </head>
 <body>
     <div class="navbar">
         <div class="logo">
-            <a href="Home.php">
+            <div class="photo">
                 <img src="img/Logo.png" alt="Logo">
-            </a>
+            </div>
         </div>
-        <div class="search">
-            <input type="text" name="Search" id="Search" placeholder="Search">
-            <a href="Login.php">Login</a>
+        <div class="right">
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search">
+            </div>
+            <div class="login">
+                <a href="Cart.php">Cart</a>
+            </div>
+            <div class="login">
+                <a href="Login.php">Login</a>
+            </div>
         </div>
     </div>
 </body>

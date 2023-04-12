@@ -1,0 +1,54 @@
+.mess{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.container1{
+    padding: 2vw 10vw 2vw 10vw;
+}
+.mess{
+    margin-top: 8vw;
+}
+.contain{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.pro{
+    display: flex;
+    width: 250px;
+    margin-top: 2vw;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+     height: 250px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+input[type="button"]{
+    padding: 0.2vw;
+    margin: 0.5vw;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+h4{
+    font-size: 1rem;
+}
+p{
+    font-size: 0.8rem;
+    color: rgb(120, 121, 120);
+}
+img{
+    width: 150px;
+    height: 150px;
+}
