@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D2C Online</title>
     <link rel="stylesheet" href="customer.css">
+    <?php
+    require 'cartpopup.php';
+        ?>
 </head>
 <?php
     require 'index.php';
@@ -55,6 +58,30 @@
                     <input type="button" value="Add to Cart">
                     <h4>Chicken Masu Only</h4>
                     <p>Rs. 380</p>
+                </div>
+            </div>
+            <div class="pro">
+                <div class="first">
+                    <img src="img/Item 6.png" alt="Item 1">
+                    <input type="button" value="Add to Cart">
+                    <h4>Chicken Egg</h4>
+                    <p>Rs. 15</p>
+                </div>
+            </div>
+            <div class="pro">
+                <div class="first">
+                    <img src="img/Item 7.png" alt="Item 1">
+                    <input type="button" value="Add to Cart">
+                    <h4>Kalejo Only</h4>
+                    <p>Rs. 200</p>
+                </div>
+            </div>
+            <div class="pro">
+                <div class="first">
+                    <img src="img/Item 8.png" alt="Item 1">
+                    <input type="button" value="Add to Cart">
+                    <h4>Pangra Only</h4>
+                    <p>Rs. 275</p>
                 </div>
             </div>
         </div>

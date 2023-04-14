@@ -33,6 +33,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: #f4f5f9;
 }
 input[type="button"]{
     padding: 0.2vw;
@@ -42,7 +43,7 @@ input[type="button"]{
     cursor: pointer;
 }
 h4{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 p{
     font-size: 0.8rem;
